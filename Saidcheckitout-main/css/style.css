@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url(../img/fon-header.jpg) no-repeat center center / cover ;
+    height: 100vh;
+}
+
+.header__title{
+    font-size: 34px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Black Ops One';
+    line-height: 40px;
+}
+
+.box-button{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 16px 48px;
+    font-family: 'Black Ops One';
+}
+
+.header__button{
+    margin-top: 108px;
+}
+
+.header__block{
+    margin-top: 30%;
+}
+
+/* header end */
+/* ******************************* */
+/* about start */
+
+.about{
+    padding-top: 92px;
+    padding-bottom: 192px;
+}
+
+.about__title{
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    font-family: 'Dancing Script'
+}
+
+.about__text{
+    font-size: 14px;
+    color: #868585;
+    line-height: 26px;
+    font-family: 'New Tegomin'
+}
+
+.about__web{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 71px;
+    margin-bottom: 37px;
+}
+
+.about__img{
+    margin-top: 102px;
+}
+
+/* about end */
+/* ***************************** */
+/* portfolio start */
+
+.portfolio{
+    padding-top: 109px;
+    padding-bottom: 62px;
+    background: rgba(191, 231, 250, 0.50);
+}
+
+.portfolio__title{
+    font-size: 34px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 241px;
+    font-family: 'Dancing Script'
+}
+
+.portfolio__img{
+    width: 100%;
+    margin-top: 21px;
+}
+
+.portfolio__button{
+    color: black;
+    border: 1px solid #000;
+    margin-top: 65px;
+}
+/* ///////////////////////////////// */
+.partners{
+    background: url(../img/fon-header.jpg)no-repeat center center / cover;
+  padding-top: 113px;
+  padding-bottom: 100px;
+}
+.partners__title{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'New Tegomin'
+}
+.partners__img{
+   
+    margin-top: 95px;
+}
+/* //////////////////////////////// */
+.home{
+    background: #3c3c3c;
+    padding-top: 114px;
+    padding-bottom: 100px;
+}
+.home__ps{
+    display: flex;
+}
+.home__fi{
+    font-size: 14px;
+    color: #a4a4a4;
+    margin-left: 30px;
+    transition: 0.5s;
+    font-family: 'New Tegomin'
+}
+.home__fi:hover{
+    color: gold;
+    text-decoration: none;
+}
+.home__text{
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-top: 33px;
+    font-family: 'New Tegomin'
+}
+
+
+
+
+
+@media (max-width:320px){
+    .header__button {
+        margin-top: 18px;
+    }
+    .header__title {
+        font-size: 26px;
+    }
+    .about__text {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    p {
+        margin-top: -20px;
+        margin-bottom: -2rem;
+    }
+    .portfolio__title {
+        
+        margin-bottom: 24px;
+    }
+    .row {
+        
+        margin-right: 8px;
+       
+    }
+}
